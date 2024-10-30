@@ -1,0 +1,37 @@
+.merger_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.merger_btn .merger_icon-bar + .merger_icon-bar { margin-top: 0.188em; }
+.merger_menu { position:relative;  *zoom: 1;z-index:9}
+.merger_menu .merger_menutxt { display: block; line-height: 1.188em; float: left; }
+.merger_menu .merger_icon { float: left; width: 3px; height: 15px; margin: 0.188em 0 0 0.438em; position:relative; }
+.merger_menu .merger_no-text { margin: 0; }
+.merger_menu .merger_icon-bar { display: block; width: 3px; height: 3px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;}
+.merger_menu .merger_open .merger_icon-bar{ display:none; }
+.merger_menu .merger_open .merger_icon:after{ content:"\00d7"; position:absolute; top:0px; line-height:12px; font-size:24px; color:#fff; left:-5px; display:block;}
+.merger_menu .merger_open .merger_icon-bar:last-child{ display:none; }
+.merger_menu:before { content: " "; display: table; }
+.merger_menu:after { content: " "; display: table; clear: both; }
+.merger_nav { position:absolute; right:0; top:100%; min-width:200px; background:#666; clear: both; }
+.merger_nav ul { display: block; }
+.merger_nav li { display: block; }
+.merger_nav .merger_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.merger_nav .merger_item { cursor: pointer; }
+.merger_nav .merger_item a { display: inline; }
+.merger_nav .merger_row { display: block; }
+.merger_nav a { display: block; }
+.merger_nav .merger_parent-link a { display: inline; }
+.merger_brand { float: left; }
+.merger_menu { font-size: 15px; box-sizing: border-box; background: #ccc; padding: 5px; }
+.merger_menu * { box-sizing: border-box; }
+.merger_menu .merger_menutxt { color: #fff; font-weight: bold; }
+.merger_menu .merger_icon-bar { background-color: #fff; }
+.merger_btn { margin: 0px; text-decoration: none; background-color: #666; }
+.merger_nav { color: #fff; margin: 0; padding: 0; font-size: 0.875em; list-style: none; overflow: hidden; }
+.merger_nav ul { list-style: none; overflow: hidden; padding: 0; margin: 0 0 0 20px; }
+.merger_nav .merger_row { padding: 5px 10px; margin: 2px 5px; }
+.merger_nav .merger_row:hover { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; background: #ccc; color: #fff; }
+.merger_nav a { padding: 5px 10px; margin: 2px 5px; text-decoration: none; color: #fff; }
+.merger_nav .merger_txtnode { margin-left: 15px; }
+.merger_nav .merger_item a { padding: 0; margin: 0; }
+.merger_nav .merger_parent-link a { padding: 0; margin: 0; }
+.merger_brand { color: #fff; font-size: 18px; line-height: 30px; padding: 7px 12px; height: 44px; }
+.no-position.merger_menu{ position:fixed; top:0; right:0; width:100%; z-index:9999; }
